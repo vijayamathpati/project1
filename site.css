@@ -1,0 +1,115 @@
+.logo h1{
+    font-size: 40px;
+  }
+  .logo h2{
+    font-size: 20px;
+    text-size-adjust: 20px ;
+  }
+  .container {
+      display: flex;
+      justify-content: left;
+      width: max-content;
+    }
+  
+  button{
+      border: 0;
+      outline: 0;
+      background: linear-gradient(135deg,blue,#f213b6);
+      color:aliceblue;
+      padding: 10px 25px;
+      height: 40px;
+      border-radius: non;
+      flex:1;
+      margin-left: 15px;
+      font-size:16px;
+      text-align: left;
+      
+   }
+   .side-image{
+    border-radius: 5rem 10rem;
+     text-align: left;
+     position: absolute;
+     top: 20px; 
+     right: 20px; 
+  
+   }
+  .container {
+          display: flex;
+          gap: 20px; 
+          height: 100px;
+          align-items: center;
+        }
+        
+        .box {
+          width: 100px; 
+             
+             
+          height: 70px; 
+          background-color:aliceblue;
+          color: rgb(199, 188, 188);
+          align-items: center;
+          text-align: center;
+          border-color: black;
+          font-size: small;
+        }
+  
+  
+          
+          .number {
+            color: rgb(237, 32, 240);
+            font-weight: bold; 
+            font-size: large;
+          }
+  
+  @media (max-width: 786px){
+    .logo h1{
+      font-size: 20px;
+    }
+    .logo h2{
+      font-size: 10px;
+    }
+    .container button{
+      padding: 8px 15px;
+      height: 30px;
+      font-size: 10px;
+    }
+    .img{
+      size: 10px;
+    }
+    .box{  
+      width: 60px; 
+      height: 40px; 
+    }
+    .side-image{
+      border-radius: 1rem 5rem;
+      width: 100%;
+      height: auto;
+    }
+  
+  }@media (max-width: 480px){
+    .logo h1{
+      font-size: 10px;
+    }
+    .logo h2{
+      font-size: 5px;
+    }
+    .container button{
+      padding: 8px 15px;
+      height: 20px;
+      font-size: 5px;
+    }
+    .img{
+      size: 5px;
+    }
+    .box{  
+      width: 30px; 
+      height: 20px; 
+    }
+    .side-image{
+      border-radius: 1rem 5rem;
+      width: 20%;
+      height: auto;
+      max-width: -50px;
+    }
+  
+  }
